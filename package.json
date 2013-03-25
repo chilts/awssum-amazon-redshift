@@ -1,0 +1,47 @@
+{
+    "name" : "awssum-amazon-redshift",
+    "description" : "AwsSum plugin for Amazon Redshift.",
+    "version" : "1.0.0",
+
+    "main" : "awssum-amazon-redshift.js",
+    "engines" : {
+        "node" : ">= 0.6.0"
+    },
+    "peerDependencies" : {
+        "awssum-amazon" : "1.x.x"
+    },
+    "dependencies" : {
+        "data2xml" : "0.8.x",
+        "underscore" : "1.4.x"
+    },
+    "devDependencies" : {
+        "tap" : "0.4.x"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js test/integration/*.js"
+    },
+
+    "homepage" : "https://awssum.io/",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/awssum/awssum-amazon-redshift.git"
+    },
+    "bugs" : {
+        "url" : "http://github.com/awssum/awssum-amazon-redshift/issues",
+        "mail" : "andychilton@gmail.com"
+    },
+
+    "author" : {
+        "name" : "Andrew Chilton",
+        "email" : "andychilton@gmail.com",
+        "url" : "http://chilts.org/"
+    },
+    "contributors" : [],
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/awssum/awssum-amazon-redshift/raw/master/LICENSE"
+    }],
+    "keywords" : [
+        "awssum", "awssum-plugin", "amazon", "aws", "webapi", "api", "s3"
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "name" : "awssum-amazon-redshift",
     "description" : "AwsSum plugin for Amazon Redshift.",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
 
     "main" : "awssum-amazon-redshift.js",
     "engines" : {

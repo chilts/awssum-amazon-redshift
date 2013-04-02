@@ -20,7 +20,7 @@
         "test" : "tap test/*.js test/integration/*.js"
     },
 
-    "homepage" : "https://awssum.io/",
+    "homepage" : "https://github.com/awssum/awssum-amazon-redshift/",
     "repository" : {
         "type" : "git",
         "url" : "git://github.com/awssum/awssum-amazon-redshift.git"

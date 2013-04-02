@@ -2,7 +2,7 @@
 
 This is an ```AwsSum``` plugin!
 
-You'll need to add [awssum-amazon-s3](https://github.com/awssum/awssum-amazon-redshift/) to your package.json
+You'll need to add [awssum-amazon-redshift](https://github.com/awssum/awssum-amazon-redshift/) to your package.json
 dependencies. Both [awssum](https://github.com/awssum/awssum/) and
 [awssum-amazon](https://github.com/awssum/awssum-amazon/) are pulled in as peer dependencies.
 

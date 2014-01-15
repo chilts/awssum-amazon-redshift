@@ -1,46 +1,51 @@
 {
-    "name" : "awssum-amazon-redshift",
-    "description" : "AwsSum plugin for Amazon Redshift.",
-    "version" : "1.0.1",
-
-    "main" : "awssum-amazon-redshift.js",
-    "engines" : {
-        "node" : ">= 0.6.0"
-    },
-    "peerDependencies" : {
-        "awssum-amazon" : "~1"
-    },
-    "dependencies" : {
-        "underscore" : "1.4.x"
-    },
-    "devDependencies" : {
-        "tap" : "0.4.x"
-    },
-    "scripts" : {
-        "test" : "tap test/*.js test/integration/*.js"
-    },
-
-    "homepage" : "https://github.com/awssum/awssum-amazon-redshift/",
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/awssum/awssum-amazon-redshift.git"
-    },
-    "bugs" : {
-        "url" : "http://github.com/awssum/awssum-amazon-redshift/issues",
-        "mail" : "andychilton@gmail.com"
-    },
-
-    "author" : {
-        "name" : "Andrew Chilton",
-        "email" : "andychilton@gmail.com",
-        "url" : "http://chilts.org/"
-    },
-    "contributors" : [],
-    "licenses" : [{
-        "type" : "MIT",
-        "url" : "http://github.com/awssum/awssum-amazon-redshift/raw/master/LICENSE"
-    }],
-    "keywords" : [
-        "awssum", "awssum-plugin", "amazon", "aws", "webapi", "api", "s3"
-    ]
+  "name": "awssum-amazon-redshift",
+  "description": "AwsSum plugin for Amazon Redshift.",
+  "version": "1.1.0",
+  "main": "awssum-amazon-redshift.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "peerDependencies": {
+    "awssum-amazon": "~1"
+  },
+  "dependencies": {
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "tap": "0.4.x"
+  },
+  "scripts": {
+    "test": "tap test/*.js test/integration/*.js"
+  },
+  "homepage": "https://github.com/awssum/awssum-amazon-redshift/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/awssum/awssum-amazon-redshift.git"
+  },
+  "bugs": {
+    "url": "http://github.com/awssum/awssum-amazon-redshift/issues",
+    "mail": "andychilton@gmail.com"
+  },
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "andychilton@gmail.com",
+    "url": "http://chilts.org/"
+  },
+  "contributors": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/awssum/awssum-amazon-redshift/raw/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "awssum",
+    "awssum-plugin",
+    "amazon",
+    "aws",
+    "webapi",
+    "api",
+    "s3"
+  ]
 }
